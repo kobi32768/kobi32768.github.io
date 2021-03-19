@@ -25,6 +25,11 @@ h2 {
     @include heading(2px);
 }
 
+.to_top {
+    @include heading(0);
+    display: block !important;
+}
+
 a {
     &, &:visited {
         color: #0081c2;
@@ -65,7 +70,7 @@ ul {
     }
 }
 
-.li_detail {
+.grayed_out {
     margin-left: 1em;
     color: rgba(#292826, .5);
 }
