@@ -61,4 +61,9 @@ ul {
   vertical-align: middle;
 }
 
+.li_detail {
+  margin-left: 1em;
+  color: rgba(41, 40, 38, 0.5);
+}
+
 /*# sourceMappingURL=style.css.map */
